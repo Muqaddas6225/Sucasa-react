@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box !important;
+  /* max-width: 1440px; */
+}
+
+.header{
+  background-color: #F8F8F8;
+}
+/* 
+section{
+  max-width: 1440px !important;
+} */
+
+.container{
+  max-width: 1120px !important;
+  /* overflow-x: hidden; */
+}
+.container-fluid{
+  gap: 15px;
+}

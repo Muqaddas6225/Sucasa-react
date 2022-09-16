@@ -1,0 +1,258 @@
+.hotelDealsSection{
+    background-color: #F8F8F8;
+}
+
+.hotelImage{
+    position: relative;
+    background-image: url('../../assets/HotelDealsImgs/hotel.png');
+    min-height: 554px;
+    /* left: 165px;
+    top: 216px; */
+    margin-top: 150px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     /* margin: 150px 0px 170px; */
+    /* margin-right: 32px; */
+  
+}
+
+
+.bookingDetails{
+    position:absolute;
+    top: 72%;
+ }
+ .bookingDetails .formBookingDetails{
+     /* display: grid;
+     grid-template-rows: (1fr); 
+     grid-template-columns:(3, 1fr); */
+     width: 62.5rem;
+     margin-left: 65px;
+     min-height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     background: #FFFFFF;
+     box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.08);
+ }
+ /* 
+ @media screen and (max-width : 11px){
+     .PicsContainer{
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(3  ,1fr);
+     }
+ } */
+ 
+ 
+ 
+ .bookingDetails .formBookingDetails input{
+     border-style:none ;
+     outline: none;
+ }
+ 
+ .bookingDetails .formBookingDetails .VerticalLine{
+     /* margin: 43.86px 178px 33.11px 80px; */
+     width: 60px;
+     padding: 0;
+     /* height: 0; */
+     border: 1px solid #8F8F8F;
+     transform: rotate(90deg);   
+ }
+
+ .bookingDetails .formBookingDetails .item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-right: 1px solid #8F8F8F ;
+    /* transform: rotate(90deg); */
+     padding-left: 14px;
+     
+ }
+ 
+ .bookingDetails .formBookingDetails .item:nth-child(4),
+ .bookingDetails .formBookingDetails .item:nth-child(5){
+    border-style:none ;
+ }
+ .bookingDetails .formBookingDetails .item .itemIcon span{
+     /* margin-right: 14px; */
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     padding-right: 14px;
+ }
+/*  
+ .bookingDetails .formBookingDetails .itemDescription{ */
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+ /* } */
+ .bookingDetails .formBookingDetails .item label{
+     font-family: 'Spectral';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 1.25rem;
+     line-height: 87%;
+     /* or 17px */
+     /* margin-left: 34px; */
+     /* heading */
+ 
+     color: #2E2E2E;
+ }
+ 
+ .bookingDetails .formBookingDetails .item input{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 0.875rem;
+     line-height: 1rem;
+     /* or 114% */
+     /* margin-left: 64px; */
+     color: #555555;
+ }
+ 
+ 
+ .bookingDetails .formBookingDetails button{
+     height: 6.25rem;
+     width: 12.5rem;
+     background: #FDBB30;
+     border-style: none;
+ }
+
+@media screen and (max-width : 1120px){
+    
+    .item1{
+        grid-area: item1;
+    }
+
+    .item2{
+        grid-area: item2;
+    }
+
+    .item3{
+        grid-area: item3;
+    }
+
+    .item4{
+        grid-area: item4;
+    }
+
+    .item5{
+        grid-area: item5;
+    }
+
+    .bookingDetails{
+        position: unset;
+        width: 90%;
+    }
+    .bookingDetails .formBookingDetails{
+        position: unset;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "item1 item2"
+                             "item3 item4"
+                             "item5 item5";
+        /* width: fit-content; */
+        width: 27.8125rem;
+        margin: auto;
+
+    } 
+
+    .hotelImage{
+     display: flex;
+     align-items: center;
+     justify-content: center;   
+    }
+    .bookingDetails .formBookingDetails .item{
+        /* padding-top:auto; */
+        /* padding: 1.5rem 1rem; */
+        /* border-bottom: 1px solid #8F8F8F ; */
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+
+    .bookingDetails .formBookingDetails button {
+        width: 100%;
+    }
+    
+    /* .{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3  ,1fr);
+    } */
+}  
+
+@media screen and (max-width : 570px){
+    
+    .item1{
+        grid-area: item1;
+    }
+
+    .item2{
+        grid-area: item2;
+    }
+
+    .item3{
+        grid-area: item3;
+    }
+
+    .item4{
+        grid-area: item4;
+    }
+
+    .item5{
+        grid-area: item5;
+    }
+    .bookingDetails .formBookingDetails{
+        position: unset;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "item1" "item2"
+                             "item3" "item4"
+                             "item5" "item5";
+        width: 100%;
+        margin: auto;
+
+    } 
+
+
+}
+
+
+
+.BestHotelDescription{
+    padding: 0;  
+    /* margin-left: 32px; */
+}
+
+.BestHotelDescription .headingHotelDeals{
+    
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.25rem;
+    line-height: 118.5%;
+    /* or 62px */
+    color: #2E2E2E;
+    margin-top: 11.248125rem;
+
+}
+
+.BestHotelDescription .HotelDealsDescription{
+ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 43px;
+    /* or 62px */
+
+
+    color: #2E2E2E;
+        margin-top: 41.66px;
+}

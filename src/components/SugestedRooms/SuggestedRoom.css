@@ -1,0 +1,147 @@
+
+ /* Carousal Section */
+/* 
+ */
+ .HeadingSuggestedRooms{
+    margin-top: 81.2px;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 87%;
+    /* or 35px */
+
+
+    /* #2E2E2E */
+
+    color: #2E2E2E;
+
+ }
+
+.carousal .container .row{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.SuggestedRoomsPara{
+    margin-top: 25.2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 34px;
+    /* or 155% */
+    /* #4E4E4E */
+    color: #4E4E4E;
+ }
+
+.carousal .container .row .SuggestedRoomsbutton{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+ }
+
+ .carousal .next,
+ .carousal .previouse{
+    position: unset;
+ }
+ 
+.carousal .next{
+    margin-right: 20px;
+    background: #7FC4D3;
+    height: 40px;
+    width: 40px;
+    /* color: #FFFFFF; */
+    /* border: 3px solid #FFFFFF; */
+    transform: matrix(-1, 0, 0, 1, 0, 0); 
+ }
+
+ .carousal .swiper-button-next:after,
+ .carousal .swiper-button-prev:after {
+    font-size: 1rem;
+}
+
+.previouse{
+    
+    background: #7FC4D3;
+    height: 40px;
+    width: 40px;
+    color: #FFFFFF;
+    /* border: 3px solid #FFFFFF; */
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+   
+ }
+   
+
+ @media screen and (max-width : 991px){
+    .HeadingSuggestedRooms{
+        display: flex;
+        /* flex-direction: column;  */
+        text-align: center;
+        justify-content: center;
+    }
+    .carousal .container .row{
+            display: flex;
+            /* flex-direction: column;  */
+            text-align: center;
+            justify-content: center;
+            /* margin-bottom: 25px; */
+        
+        }
+      } 
+
+/* .mySwiper .swiper-wrapper .swiper-slide  */
+.card{
+    margin-top: 60px;
+    min-height: 402px;
+    width: 100%;
+    /* position: relative; */
+    /* z-index: 1; */
+    border-style: none;
+    /* background: url(.jpg); */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin: auto;
+    /* padding-top: 15.840px; */
+    background-repeat: no-repeat;
+    background-size:cover ;
+} 
+
+
+
+/* .mySwiper .swiper-wrapper .swiper-slide  */
+.card .text{
+        background-color: red;
+        margin: 300px 26.09px 26.18px 26.25px;
+        background: #FFFFFF;
+        opacity: 0.77;
+    } 
+
+.text h4{
+    margin-top: 18.34px;
+    margin-left: 16.09px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+
+    color: #222222;
+}
+
+.text p{
+    margin-top: 16.21px;
+    margin-left: 16.09px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 10px;
+    /* identical to box height */
+
+
+    color: #222222;
+}

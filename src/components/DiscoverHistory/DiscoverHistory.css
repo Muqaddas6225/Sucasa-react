@@ -1,0 +1,151 @@
+
+/* Discover History */
+
+
+.HeadingDiscoverHistory{
+    margin-top: 80.39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 87%;
+    /* or 35px */
+
+
+    /* heading */
+
+    color: #2E2E2E;
+}
+
+        /* DiscoverBackgroundSection */
+
+.DiscoverBackgroundSection{
+    background: rgba(127, 196, 211, 0.04);
+}
+
+.DiscoverBackgroundSection .container .row{
+    padding-top: 68px;
+    padding-bottom: 67px;
+    /* margin-top:68px;
+    margin-bottom: 122px; */
+}
+
+
+/* 
+.DiscoverBackground-h1{
+    width: 236.57px;
+    height: 85.85px;
+} */
+.DiscoverBackgroundDescription h1{
+    margin-bottom: 35.15px;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 121.5%;
+    /* or 49px */
+    /* heading */
+    color: #2E2E2E;
+}
+
+/* .DiscoverBackground-p{
+    width: 461.2px;
+    height: 161.92px;
+    margin-top: 35.15px  ;
+    margin-bottom:53.52px ;
+} */
+
+
+.DiscoverBackgroundDescription p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 201.5%;
+    /* or 44px */
+    /* heading */
+    color: #2E2E2E;
+}
+/* 
+.DiscoverBackground-btn{
+    margin-bottom: 130.56px;
+    width: 170px;
+    height: 54px;
+    background: #88C8D6;
+} */
+
+.DiscoverBackground-btn button{
+    margin-bottom: 130.56px;
+    width: 10.62rem;
+    min-height: 54px;
+    background: #88C8D6;
+    border-style: none;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width : 991px){
+    .DiscoverBackgroundDescription{
+        display: flex;
+            /* flex-direction: column;  */
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+      }  
+
+.DiscoverHistoryImg{
+    /* margin-top:68px;
+    margin-bottom: 68px; */
+    /* margin: 68px 122px; */
+    /* width: 540px; */
+    position: relative;
+    z-index: 1;
+}
+
+.DiscoverHistoryImg img{
+    /* position: absolute; */
+   /* width:33.43rem; */
+   /* width: 100%; */
+      width: 85%;
+}
+.DiscoverHistoryImg::before{
+    position:absolute;
+    background-image: url(../../assets/DiscoverHistoryImg/Dot.png);
+    content:'';
+    /* left: 990px;
+    top: 2516px; */
+
+    margin: 65px 85px 55px 150px;
+    /* margin: 125px 85px 55px 255px; */
+    width: 370px;
+    height: 340px;
+    transform: translate(-15px);
+    z-index: -1;
+}
+
+@media screen and (max-width : 1042px){
+    .DiscoverHistoryImg::before{
+        display: none;
+    }
+    .DiscoverHistoryImg{
+        /* width: 25.06rem; */
+        width: 100%;
+        margin: auto;
+    }
+    .DiscoverHistoryImg img{
+        /* position: absolute; */
+        width: 100%;
+        margin: auto;
+    }
+
+}

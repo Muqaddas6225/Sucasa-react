@@ -1,0 +1,107 @@
+   
+   /* Luxury Hotel */
+   .LuxuryHotelSection .container{
+    margin-top: 30px;
+    margin-bottom: 86.15px;
+}
+
+.LuxuryHotelImg{
+    height: 100%;
+  
+    width: 96%;
+    margin: auto;
+} 
+
+.LuxuryHotelDescription .Description{
+    margin-bottom: 36.95px;
+}
+
+.LuxuryHotel-h1{
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 46px;
+    /* or 116% */
+    color: #222222;    
+    /* width: 402px;
+    min-height: 87.5px; */
+
+}
+
+.LuxuryHotel-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 201.5%;
+    /* or 44px */
+    /* heading */
+    color: #2E2E2E;
+    /* max-width: 533.79px; */
+    /* min-height: 161.31px; */
+}
+
+.LuxuryHotel-flex-box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+
+.LuxuryHotel-flex-box .item h4{
+    /* margin-right: 50px; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 20px;
+    /* or 67% */
+    color: #222222;
+}
+
+.LuxuryHotel-flex-box .item p{
+    margin-top: 27.15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 11px;
+    /* identical to box height, or 69% */
+    color: #222222;
+}
+
+.ExploreMore{
+    width: 100%;
+}
+.ExploreMore button{
+    margin-top: 60.62px;
+    /* margin-bottom: 86.15px; */
+    width: 199px;
+    height: 51px;
+    background: #88C8D6;
+    border-style: none;
+    text-align: center;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 87%;
+    color: #FFFFFF;
+    /* bottom: 0;
+    left: 0; */
+   
+}
+
+
+@media screen and (max-width : 991px){
+    .LuxuryHotelDescription{
+        padding-top: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+ }  

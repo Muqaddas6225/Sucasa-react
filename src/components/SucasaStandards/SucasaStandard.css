@@ -1,0 +1,73 @@
+
+      /* Sucasa Standard */
+
+  .sucasaStandards{
+        /* background-color: red; */
+        /* height:600px; */
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .SucasaStandard{
+        margin: 5rem 3.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .PicsContainer{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .PicsContainer .PicsItem{
+        
+        width: 21.5652rem;
+    }
+    
+    
+    .PicsItem img{
+        width: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.85%, rgba(0, 0, 0, 0.35) 81.12%)
+    }
+    
+    .PicsItem h2{
+        padding-top: 27.82px;
+        text-align: center;
+        font-family: 'Spectral';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 81.7%;
+        /* or 20px */
+    
+    
+        /* #2E2E2E */
+    
+        color: #2E2E2E;
+    }
+    
+    .PicsItem p{
+        
+        padding-top: 12px;
+        text-align: center;
+       justify-content: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 88.8%;
+        /* or 14px */
+    
+    
+        /* #4E4E4E */
+    
+        color: #4E4E4E;
+    
+    }
+    
